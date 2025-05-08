@@ -9,7 +9,7 @@ Microsoft Defender for Cloud (previously Azure Security Center) allows you to un
 - Detect active threats early and respond fast (standard tier only)
 - Integrate with your existing security processes and tools
  
-For an overview about Microsoft Defender for Cloud Microsoft Defender for Cloud Overview - Microsoft Defender for Cloud | Microsoft Learn
+For an overview about Microsoft Defender for Cloud Microsoft Defender for Cloud https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction
  
  
 In this lab, I will be enabling Microsoft Defender for Cloud and also show how it can be used to automatically identify security risks that are enabled in the default Microsoft Defender for Cloud security policy. This lab step will give an overview of the recommendations feature of Microsoft Defender for Cloud.
