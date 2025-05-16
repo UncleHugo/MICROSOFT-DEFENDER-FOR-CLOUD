@@ -18,7 +18,7 @@ In this lab, I will be enabling Microsoft Defender for Cloud and also show how i
 ![Architecture](https://github.com/user-attachments/assets/f2f5c6e9-67aa-46a3-9692-cd2a9c77a114)
 
  
-Lab prerequisites:
+#### Lab prerequisites:
  
 Basic Azure resources used were Subnets, Virtual Machines, Network Security Group (NSG), Storage Account
  
@@ -43,7 +43,7 @@ In this lab step, i will show how Microsoft Defender for Cloud can be used to au
 
 ![recommendation](https://github.com/user-attachments/assets/a56474fb-914f-4e9c-9bc1-fc1474fdbe35)
 
-Clicking on *Virtual machines and virtual machine scale sets should have encryption at host enabled* 
+Clicking on the first recommendation *Virtual machines and virtual machine scale sets should have encryption at host enabled* 
 The following page appears after clicking on the recommendation:
 
 ![recom2](https://github.com/user-attachments/assets/824730c6-0050-4578-9ffa-dc5038c5d954) 
@@ -64,6 +64,39 @@ Checking back on the recommendations, we can see in the picture below that the s
 ![done](https://github.com/user-attachments/assets/77a39b69-6f42-477d-88a1-22f1e712e280)
 
 Microsoft Defender for Cloud provides a convenient safety net that continues to expand over time, although it should not be treated as a complete security solution. It is advisable to treat Microsoft Defender for Cloud as just one layer of your defense in depth strategy.
+
+
+## Securing our Storage Account
+
+Going through our storage account *ugoteststorageaccount*, we can see that Microsoft Defender for Cloud (storage) is been turned *on* Fig 12 below
+
+![defender for storage](https://github.com/user-attachments/assets/7d7fc1d4-2213-4879-8e08-87321d972fba)
+
+The fig 13 below shows the recommendations provided by Microsoft Defender for Cloud, it monitors configurations of our storage account for any vulnerabilities and also provides recommendations to mitigate the risk.
+
+![recomstorage](https://github.com/user-attachments/assets/bcafee7f-5c05-41b6-a57a-0f4000b19c00)
+
+
+![Storageacct](https://github.com/user-attachments/assets/fd7008e4-4d0e-44c3-8811-bc29272e73ad)
+
+![aautofix](https://github.com/user-attachments/assets/a789db15-48f6-4d5b-95b9-fa5af7089a31)
+
+![fixed](https://github.com/user-attachments/assets/437808c2-a858-4c7b-b508-ed715184592f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
